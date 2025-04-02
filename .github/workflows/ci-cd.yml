@@ -34,7 +34,7 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push yourusername/supermario:latest
+          docker push barathace33/supermario:latest
 
       # Deploy to Kubernetes
       - name: Set up Kubectl
